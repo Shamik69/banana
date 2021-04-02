@@ -1,0 +1,111 @@
+body {
+    background-color: #c1ccca;
+}
+
+table{
+    display: block;
+    margin:auto;
+    border-spacing: 0%;
+    border-collapse: collapse;
+    padding: 0%;
+    width: 1000px;
+    height: 618px;
+}
+
+/* td.x{
+    margin-top: -50px;
+} */
+thead{
+    background-image: url('images/top.jpg');
+    text-align: center;
+    width: 1000px;
+    height: 113px;
+    font-family: 'pacifico';
+    font-size: 50px;
+    color: #5394ce;
+}
+
+tfoot{
+    background-image: url("images/bottom.jpg");
+    width: 1000px;
+    height: 128px;
+    text-align: center;
+    font-family: 'indie flower';
+    color: #39464b;
+}
+
+ul {
+    list-style-type: none; 
+}
+
+li {
+    padding-top: 05%;
+}
+
+#lft{
+    background-image: url("images/left.jpg");
+    width: 246px;
+    height: 376px;
+    font-family: 'Shadows Into Light';
+    color: #323a41;
+}
+
+#rit{
+    background-image: url("images/right.jpg");
+    width: 257px;
+    height: 376px;
+    font-family: 'Rakkas';
+    color: #364132;
+}
+
+#mid{
+    background-image: url("images/mid.jpg");
+    text-align: center;
+    width: 496px;
+    height: 376px;; 
+}
+
+#lftlist{
+    margin-top: -50%;
+}
+#midtxt{
+    width: 450px;
+    height: 376px;
+    text-align: left;
+    padding-right: 0%;
+    padding-bottom: 0%;
+    padding-top: 0%;
+    padding-left: 0%;
+    list-style-type:decimal;
+    font-family:'Source Sans';
+    font-size: 120%;
+    overflow-inline:unset;
+}
+.dyk{
+    font-family: 'Dancing Script';
+    font-size: 30px;
+}
+.midli{
+    width: 450px;
+    padding-right: 0%;
+    padding-bottom: 0%;
+    padding-top: 0%;
+    padding-left: 0%;
+    overflow-wrap: break-word;
+    color: #e12020;
+    margin-top: 5%;
+    font-family: 'Permanent Marker';
+}
+
+.f{
+    width: 50px;
+}
+.fact{
+    font-family: 'Caveat';
+    color: #457bc0;
+    font-size: 25px;
+}
+.reasons{
+    font-family: 'Architects Daughter';
+    text-decoration: underline;
+}
