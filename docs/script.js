@@ -61,6 +61,4 @@ $(document).ready(function() {
         i += 1;
     }
 
-    var myScreenOrientation = window.screen.orientation;
-    myScreenOrientation.lock("landscape");
 })
