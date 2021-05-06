@@ -2,9 +2,9 @@ body {
     background-color: #c1ccca;
 }
 
-table{
+table {
     display: block;
-    margin:auto;
+    margin: auto;
     border-spacing: 0%;
     border-collapse: collapse;
     padding: 0%;
@@ -12,10 +12,7 @@ table{
     height: 618px;
 }
 
-/* td.x{
-    margin-top: -50px;
-} */
-thead{
+thead {
     background-image: url('images/top.jpg');
     text-align: center;
     width: 1000px;
@@ -25,7 +22,7 @@ thead{
     color: #5394ce;
 }
 
-tfoot{
+tfoot {
     background-image: url("images/bottom.jpg");
     width: 1000px;
     height: 128px;
@@ -35,14 +32,14 @@ tfoot{
 }
 
 ul {
-    list-style-type: none; 
+    list-style-type: none;
 }
 
 li {
     padding-top: 05%;
 }
 
-#lft{
+#lft {
     background-image: url("images/left.jpg");
     width: 246px;
     height: 376px;
@@ -50,7 +47,7 @@ li {
     color: #323a41;
 }
 
-#rit{
+#rit {
     background-image: url("images/right.jpg");
     width: 257px;
     height: 376px;
@@ -58,17 +55,19 @@ li {
     color: #364132;
 }
 
-#mid{
+#mid {
     background-image: url("images/mid.jpg");
     text-align: center;
     width: 496px;
-    height: 376px;; 
+    height: 376px;
+    ;
 }
 
-#lftlist{
+#lftlist {
     margin-top: -50%;
 }
-#midtxt{
+
+#midtxt {
     width: 450px;
     height: 376px;
     text-align: left;
@@ -76,16 +75,18 @@ li {
     padding-bottom: 0%;
     padding-top: 0%;
     padding-left: 0%;
-    list-style-type:decimal;
-    font-family:'Source Sans';
+    list-style-type: decimal;
+    font-family: 'Source Sans';
     font-size: 120%;
-    overflow-inline:unset;
+    overflow-inline: unset;
 }
-.dyk{
+
+.dyk {
     font-family: 'Dancing Script';
     font-size: 30px;
 }
-.midli{
+
+.midli {
     width: 450px;
     padding-right: 0%;
     padding-bottom: 0%;
@@ -97,15 +98,17 @@ li {
     font-family: 'Permanent Marker';
 }
 
-.f{
+.f {
     width: 50px;
 }
-.fact{
+
+.fact {
     font-family: 'Caveat';
     color: #457bc0;
     font-size: 25px;
 }
-.reasons{
+
+.reasons {
     font-family: 'Architects Daughter';
     text-decoration: underline;
 }
