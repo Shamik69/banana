@@ -60,4 +60,7 @@ $(document).ready(function() {
         mouseOver(id);
         i += 1;
     }
+
+    var myScreenOrientation = window.screen.orientation;
+    myScreenOrientation.lock("landscape");
 })
