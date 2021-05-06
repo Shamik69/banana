@@ -4,7 +4,8 @@ body {
 
 @media only screen and (orientation:portrait) {
     body {
-        /* height: 100vw; */
+        width: 1000px;
+        height: 618px;
         transform: rotate(90deg);
     }
 }
