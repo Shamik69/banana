@@ -3,7 +3,7 @@ body {
 }
 
 @media only screen and (orientation:portrait) {
-    table {
+    body {
         height: 100vw;
         transform: rotate(90deg);
     }
