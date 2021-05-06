@@ -2,15 +2,13 @@ body {
     background-color: #c1ccca;
 }
 
-@media only screen and (orientation:portrait) {
+
+/* @media only screen and (orientation:portrait) {
     body {
-        width: 1000px;
-        height: 618px;
+        height: 100vw;
         transform: rotate(90deg);
-        display: block;
-        margin: auto;
     }
-}
+} */
 
 table {
     display: block;
