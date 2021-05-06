@@ -2,6 +2,13 @@ body {
     background-color: #c1ccca;
 }
 
+@media only screen and (orientation:portrait) {
+    body {
+        /* height: 100vw; */
+        transform: rotate(90deg);
+    }
+}
+
 table {
     display: block;
     margin: auto;
@@ -10,6 +17,8 @@ table {
     padding: 0%;
     width: 1000px;
     height: 618px;
+    left: 0;
+    top: 0;
 }
 
 thead {
