@@ -8,16 +8,6 @@ function list_return(list_len) {
     $("#lftlist").html(x);
 }
 
-function makeid(length) {
-    var result = '';
-    var characters = 'abcdefghijklmnopqrstuvwxyz ';
-    var charactersLength = characters.length;
-    for (var i = 0; i < length; i++) {
-        result += characters.charAt(Math.floor(Math.random() * charactersLength));
-    }
-    return result;
-}
-
 function mouseOver(id) {
     $(id).on('mouseenter', function() {
         $(id).css('color', '#2a6496');
@@ -43,13 +33,11 @@ function mouseOver(id) {
         // $('.fact').hide();
     })
 }
+
+
 $(document).ready(function() {
     list_return(10);
-    var x = '';
     var i = 0;
-    $("#midtxt").html(
-        "<span class= 'reasons'>5 Reasons Why</span>"
-    );
     while (i <= 4) {
         reasons = {
             "0": "Bananas Contain Many Important Nutrients like Potassium, Vitamin B6, Vitamin C, Magnesium, Copper",
