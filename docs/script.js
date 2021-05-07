@@ -60,5 +60,11 @@ $(document).ready(function() {
         mouseOver(id);
         i += 1;
     }
+    console.log(
+        // (/android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini|windows/i.test(navigator.userAgent.toLowerCase()))
+        // (/mobile/i.test(navigator.userAgent.toLowerCase()))
+        window.innerHeight,
+        window.innerWidth
+    )
 
 })

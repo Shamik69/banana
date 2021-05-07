@@ -2,29 +2,12 @@ body {
     background-color: #c1ccca;
 }
 
-
-/* @media only screen and (orientation:portrait) {
-    body {
-        height: 100vw;
-        transform: rotate(90deg);
-    }
-} */
-
-@media only screen and (orientation:landscape) {
-    #info {
-        display: block;
-    }
-    table {
-        display: none;
-    }
-}
-
 @media only screen and (orientation:portrait) {
-    #info {
-        display: none;
-    }
-    table {
-        display: block;
+    body {
+        height: 1000px;
+        width: 618px;
+        scale: auto;
+        transform: rotate(90deg);
     }
 }
 
